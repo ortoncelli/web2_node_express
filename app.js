@@ -30,6 +30,6 @@ app.use(
     })
 )
 
-app.listen(9000, function(){
-        console.log("Servidor no http://localhost:9000")
-});
+var porta = process.env.PORT || 8081;
+
+app.listen(porta);
