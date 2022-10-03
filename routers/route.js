@@ -6,6 +6,7 @@ module.exports = route;
 
 
 route.get("/home",function(req,res){
+    console.log('ola');
     res.render('home');
 });
 route.get("/",function(req,res){
